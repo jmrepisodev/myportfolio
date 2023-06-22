@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#about{
+    padding-bottom: 14rem;
+}
+
+#skils{
+    margin-top: -10rem;
+}
+
+.masthead .masthead-avatar {
+    width: 12rem;
+}
+
+.list-langs{
+    list-style: none;
+}
+
+
+.icon-li{
+    max-width: 48px;
+    height: auto;
+    margin-right: 0.25em;
+}
+
+.anim-title {
+    animation: typing 3s ease forwards;
+}
+
+@keyframes typing {
+   0%{
+    opacity: 0;
+   }
+   100%{
+    opacity: 1;
+   }
+}
+
+.anim-subtitle {
+    opacity: 0;
+    animation: typing2 3s ease forwards;
+    animation-delay: 3s;
+}
+
+@keyframes typing2 {
+   0%{
+    opacity: 0;
+   }
+   100%{
+    opacity: 1;
+   }
+}
+
+.anim-img{
+    animation: showimg 3s ease forwards;
+    animation-delay: 6s;
+}
+
+@keyframes showimg {
+   0%{
+        transform: scale(0,0);
+   }
+   50%{
+        transform: scale(2,2);
+   }
+   100%{
+        transform: scale(1,1);
+   }
+}
+
+
+.saludar {
+    animation-name: saludo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes saludo {
+    0% {
+        transform: rotate(0);
+    }
+    20% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-8deg);
+    }
+    60% {
+        transform: rotate(14deg);
+    }
+    80% {
+        transform: rotate(-8deg);
+    }
+    100% {
+        transform: rotate(14deg);
+    }
+}
+
+.carousel-item img{
+    display: block;
+    max-width: 25%;
+}
+
+@media (max-width: 768px) {
+    
+    .carousel-item img{
+        max-width: 50%;
+    }
+
+  }
