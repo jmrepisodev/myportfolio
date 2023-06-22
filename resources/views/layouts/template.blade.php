@@ -40,7 +40,7 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5 rounded-circle border border-primary" src="assets/img/portfolio/mifoto.png" alt="mi foto" />
+                <img class="masthead-avatar mb-5 rounded-circle border border-primary" src="assets/img/avataaars.svg" alt="mi foto" />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading mb-0 lh-sm">¡Hola!<span class="saludar">👋🏻</span> <br> <span class="anim-title"> Soy José Miguel Repiso</span> </h1>
                 <!-- Icon Divider-->
